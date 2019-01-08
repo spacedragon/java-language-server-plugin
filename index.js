@@ -18,7 +18,7 @@ export default function (kibana) {
     },
     init(server) {
       server.expose('install', {
-        path: path.join(__dirname, 'jdt-language-server'),
+        path: path.join(__dirname, 'lib'),
       });
     }
   });
